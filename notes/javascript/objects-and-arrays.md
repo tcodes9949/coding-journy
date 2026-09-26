@@ -5,9 +5,9 @@
 
 ## What I learned
 - `arrays` - is an ordered list wrapped in square brackets "[...]"
-- each item has a position number, the first item starts at `0` no `1`
+  - each item has a position number, the first item starts     at `0` no `1`
 - `length` - how many items that are in the index
-- `Object` - An object groups values with lables(keys) wrapped with curley brackets "{...}"
+- `Object` - An object groups values with lables(keys)        wrapped with curley brackets "{...}"
   - Each entry is a key paired with a value 
   - When acessing/ calling values: use dot notation ( consolelog.(person.name))
   - Order doesn't matter , lables do, you just call `person.name`
@@ -23,7 +23,7 @@ let numbers = [1, 2, 3, 4, 5]
 let mixed = ["Alice", 30, true]
 ```
 
-### Index number positions
+###  Array Index number positions
 ```js
 let colors = ["red", "green", "blue"]
 //               0      1       2
