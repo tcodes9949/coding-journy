@@ -1,5 +1,5 @@
 # Topic: Objects and Arrays
-**Date:** 2026-seo-25
+**Date:** 2026-sep-25
 **Phase:** Phase 1 — JavaScript
 **Status:** 🟠learning 
 
@@ -28,9 +28,9 @@ let mixed = ["Alice", 30, true]
 let colors = ["red", "green", "blue"]
 //               0      1       2
 
-consloe.log(colors[0])     //square brackets + number prints item
+console.log(colors[0])     //square brackets + number prints item
 console.log(colors[1])
-consloe.log(colors[2])
+console.log(colors[2])
 ```
 ### Objects - labeled values
 
@@ -46,7 +46,7 @@ console.log(person.age)       // 30
 console.log(person.isReady)   // true
 ```
 
-### Length: print how many items
+### `.length`: print how many items
 ```js
 console.log(colors.length)    // 3
 ```
@@ -54,7 +54,7 @@ console.log(colors.length)    // 3
 ### Array of objects 
 ```js
 let people = [
-  { name: "Alice", age: 30 },
+  { name: "Alice" age: 30 },
   { name: "Bob", age: 25 },
   { name: "Charlie", age: 35 }
 ]
@@ -70,9 +70,19 @@ for (let i = 0; i < people.length; i++) {
 ## Gotchas / mistakes
 - Arrays start at 0, not 1. 
 - Dot vs Brackets for objects
+    ```js
+  person.name         // ✅ dot — when you know the key
+person["name"]      // ✅ bracket — also works
+person.name2        // undefined — key doesn't exist (no error!)
+    ```
+- In `for` loop use `;`
+   ```js
+   for ( let i = 0; i x.length; i++)
+   ```
 
 ## Resources used
-- 
+- Deepseek chat
+- Youtube - Learn JavaScript in 60 Minutes: The Ultimate Beginner Course!
 
 ## Next steps
-- 
+- Unite 6: Console Calculator
