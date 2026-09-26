@@ -1,15 +1,15 @@
 # Topic: Objects and Arrays
-**Date:** 2026-sep-25
+**Date:** 2026-Sep-25
 **Phase:** Phase 1 — JavaScript
 **Status:** 🟠learning 
 
 ## What I learned
 - `arrays` - is an ordered list wrapped in square brackets "[...]"
-  - each item has a position number, the first item starts     at `0` no `1`
+  - each item has a position number, the first item starts at `0` not `1`
 - `length` - how many items that are in the index
-- `Object` - An object groups values with lables(keys)        wrapped with curley brackets "{...}"
+- `Object` - An object groups values with lables(keys) wrapped with curly brackets "{...}"
   - Each entry is a key paired with a value 
-  - When acessing/ calling values: use dot notation ( consolelog.(person.name))
+  - When accessing/ calling values: use dot notation ( console.log(person.name))
   - Order doesn't matter , lables do, you just call `person.name`
 
 
@@ -36,8 +36,8 @@ console.log(colors[2])
 
 ```js
 let person = {
-  name: "Alice"                // each entry has key: value pair
-  age: 30,
+  name: "Alice",                // each entry has key: value pair
+  age: 30
   isReady: true
 }
 
@@ -77,12 +77,12 @@ person.name2        // undefined — key doesn't exist (no error!)
     ```
 - In `for` loop use `;`
    ```js
-   for ( let i = 0; i x.length; i++)
-   ```
+for (let i = 0; i < arr.length; i++)   // ✅
+for (let i = 0, i < arr.length; i++)   // ❌ comma   ```
 
 ## Resources used
 - Deepseek chat
 - Youtube - Learn JavaScript in 60 Minutes: The Ultimate Beginner Course!
 
 ## Next steps
-- Unite 6: Console Calculator
+- Unit 6: Console Calculator
