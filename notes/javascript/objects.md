@@ -76,7 +76,7 @@ person["name"]      // ✅ bracket — also works
 person.name2        // undefined — key doesn't exist (no error!)
     ```
 - In `for` loop use `;`
-   ```js
+ ```js
 for (let i = 0; i < arr.length; i++)   // ✅
 for (let i = 0, i < arr.length; i++)   // ❌ comma   ```
 
