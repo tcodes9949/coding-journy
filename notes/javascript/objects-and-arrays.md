@@ -67,8 +67,6 @@ for (let i = 0; i < people.length; i++) {
 
 ```
 
-// code here
-
 ## Gotchas / mistakes
 - Arrays start at 0, not 1. 
 - Dot vs Brackets for objects
